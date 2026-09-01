@@ -41,13 +41,13 @@ Tick every box. An unticked box is a question your reviewer will ask.
 
 ### The Week 1 data
 - [ ] `project-02-minutemaker/data/` is **unmodified** — five transcripts and
-      `example-output.json`, exactly as they arrived
+      `sample_output.json`, exactly as they arrived
 - [ ] My code handles `transcript-04.txt`, which is **intentionally blank** —
       the empty-input case — without crashing
 
 ### Code
 - [ ] It runs from a clean clone by following "How to run it" above
-- [ ] Output for `transcript-01.txt` is compared against `example-output.json`
+- [ ] Output for `transcript-01.txt` is compared against `sample_output.json`
 - [ ] No absolute paths from my own machine (`/Users/...`, `C:\...`)
 - [ ] No large binaries, datasets, or `.venv/` committed
 
