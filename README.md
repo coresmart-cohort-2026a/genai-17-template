@@ -66,14 +66,15 @@ The labs are in two repositories, and which one you need depends on the week.
 | Weeks | Repository | Access |
 |---|---|---|
 | 1 | `coresmartai/labs` | Public. Clone or browse it without signing in. |
-| 2 to 17 | `coresmart-cohort-2026a/labs` | Private. Available once you are enrolled; clone it with a GitHub token. |
+| 2 to 17 | `coresmart-cohort-2026a/labs` | Private, readable after enrolment, not during prep week. Clone it with a GitHub token. |
 
 ```bash
 # Week 1, public
 git clone https://github.com/coresmartai/labs.git
 
-# Weeks 2 to 17, private: Git will ask for your GitHub username and a personal
-# access token with the repo scope in place of a password.
+# Weeks 2 to 17, private, after enrolment: during prep week this returns a 404.
+# Git will ask for your GitHub username and a personal access token with the
+# repo scope in place of a password.
 git clone https://github.com/coresmart-cohort-2026a/labs.git
 ```
 
