@@ -1,9 +1,9 @@
 # <!-- your name --> — Applied GenAI & Agentic AI Engineering
 
-CoreSmart.AI · 17-Week Applied GenAI & Agentic AI Engineering Program · Cohort 2026A
+CoreSmart.AI · 17-Week Applied GenAI & Agentic AI Engineering Program
 
 This repository holds all sixteen graded projects for the programme. One
-repository, one project folder per build, from Week 1 through to December.
+repository, one project folder per build, from Week 1 through to Week 17.
 
 > Fill in the sections below as you go. The headings are here so that by Demo Day
 > this reads as a body of work rather than a folder of exercises.
@@ -47,14 +47,34 @@ python3 -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 
 # 3. per-project dependencies
-#    You create requirements.txt yourself as you build. ReleaseBot's copy in
-#    coresmartai/labs (week-01/releasebot/requirements.txt) is a good starting point.
+#    You create requirements.txt yourself as you build. ReleaseBot's copy in the
+#    Week 1 labs (coresmartai/labs, week-01/releasebot/requirements.txt) is a
+#    good starting point.
 cd project-02-minutemaker
 pip install -r requirements.txt
 
 # 4. your API key
-#    Copy .env.example from coresmartai/labs week-01/releasebot/, rename to .env,
-#    and put your own key in it. .env is already git-ignored.
+#    Copy .env.example from the Week 1 labs (coresmartai/labs,
+#    week-01/releasebot/), rename to .env, and put your own key in it.
+#    .env is already git-ignored.
+```
+
+### Where the labs live
+
+The labs are in two repositories, and which one you need depends on the week.
+
+| Weeks | Repository | Access |
+|---|---|---|
+| 1 | `coresmartai/labs` | Public. Clone or browse it without signing in. |
+| 2 to 17 | `coresmart-cohort-2026a/labs` | Private. Available once you are enrolled; clone it with a GitHub token. |
+
+```bash
+# Week 1, public
+git clone https://github.com/coresmartai/labs.git
+
+# Weeks 2 to 17, private: Git will ask for your GitHub username and a personal
+# access token with the repo scope in place of a password.
+git clone https://github.com/coresmart-cohort-2026a/labs.git
 ```
 
 ### The .env rule
@@ -100,8 +120,8 @@ your reviewer and the Week 1 brief both rely on these paths.
 ## Reflections
 
 <!-- Optional but worth doing. A few lines each week on what was hard and what
-     you would do differently. By December this is the most interesting part of
-     the repository. -->
+     you would do differently. By the end of the programme this is the most
+     interesting part of the repository. -->
 
 ---
 
