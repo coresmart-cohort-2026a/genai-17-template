@@ -33,14 +33,34 @@ repository, one project folder per build, from Week 1 through to Week 17.
 
 ---
 
+## Create your repository
+
+Do this once, before anything else.
+
+1. Open the template: **https://github.com/coresmart-cohort-2026a/genai-17-template**
+2. Click the green **Use this template** button, then **Create a new repository**.
+3. On the form that opens:
+   - **Owner** - change it to `coresmart-cohort-2026a`. It defaults to your personal
+     account, and a repository created there is one your reviewer cannot see.
+   - **Repository name** - `<your-username>-genai-17-2026b`, all lower case, with your
+     own GitHub username in place of `<your-username>`.
+   - **Visibility** - **Private**.
+4. Click **Create repository**.
+
+Do not use the "New repository" button instead. That gives you an empty repository with
+none of the project folders, no pull-request checklist and no `.gitignore`, and your first
+review will fail on all three.
+
+---
+
 ## Setup
 
 How to run anything in this repository on a clean machine.
 
 ```bash
 # 1. clone
-git clone https://github.com/coresmart-cohort-2026a/<your-username>-genai-17.git
-cd <your-username>-genai-17
+git clone https://github.com/coresmart-cohort-2026a/<your-username>-genai-17-2026b.git
+cd <your-username>-genai-17-2026b
 
 # 2. environment
 python3 -m venv .venv
